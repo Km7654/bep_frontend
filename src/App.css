@@ -1,0 +1,57 @@
+.navbar{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(35, 33, 44);
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 0px;
+    z-index: 99999;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgb(12, 12, 17)
+}
+.navlogo{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    padding-left: 80px;
+    gap: 20px;
+}
+.navlogo img{
+    height: 85px;
+    width: 110px;
+    /* margin-top: -5px; */
+}
+.navlogo h3{
+    color: rgb(255, 255, 255);
+    margin-top: 27px;
+    font-size: larger;
+}
+.navlogo a{
+    text-decoration: none;
+}
+
+.options{
+    display: flex;
+    padding-right: 150px;
+}
+.options ul{
+    display: flex;
+    float: left;
+    gap: 50px;
+    list-style: none;
+    margin-top: 30px;
+}
+.options li {
+    text-align: justify;
+}
+.options li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+.fa{
+    margin-top: -5px;
+}
+

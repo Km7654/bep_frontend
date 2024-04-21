@@ -1,0 +1,44 @@
+.contributors{
+    width: 100%;
+    margin: 10% 0% 0% 0%;
+    background-color: rgb(39, 36, 45);
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(11, 6, 13);  
+    text-align: center;
+    
+}
+.card-contri{
+    display: flex;
+    gap: 10%;
+    padding:5% 20%;
+    justify-content: space-around;
+}
+.card{
+    width: 220px;
+    text-align: center;
+    background-color: rgb(30, 26, 44);
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(10, 9, 13);
+}
+
+.card img{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.card h3{
+    color: rgb(154, 137, 185);
+    padding-bottom: 20px;
+}
+.contributors h1{
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 5%;
+    color: rgb(199, 192, 210);
+}
+.fa_custom{
+    color: white;
+}
+.link a{
+    padding: 10px;
+}

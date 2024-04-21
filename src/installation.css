@@ -1,0 +1,88 @@
+.installation{
+    width: 100%;
+    color: white;
+}
+.buttonclass{
+    width: 70%;
+    margin: 5% 15%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+
+/* .button1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 53, 90);
+    transition: .3s;
+    scale: 1.02;
+} */
+
+.button{
+    padding: 13px 30px;
+    color: white;
+    background-color: rgb(40, 40, 57);
+    font-size: 17px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    border: none;
+    border: 2px solid rgb(74, 69, 85);
+}
+/* .button:hover{
+    scale: 1.02;
+    transition: .3s;
+    background-color: rgb(58, 54, 80);
+} */
+
+.active{
+    padding: 13px 30px;
+    color: white;
+    background-color:rgb(91, 81, 109);
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.install-content{
+    width: 70%;
+    margin: 5% 15%;
+    background-color: rgb(30, 26, 44);
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(8, 6, 14);
+}
+
+.install-content ul{
+    width: 70%;
+    padding: 5% 15%;
+}
+
+.install-content li{
+    padding-bottom: 15px;
+}
+
+.install-content hr{
+    margin-top: 10px;
+}
+.install-content h3{
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.command{
+    background-color: rgb(45, 45, 74);
+    padding: .2px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(18, 16, 22);
+}
+
+.command P{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}

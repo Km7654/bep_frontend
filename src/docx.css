@@ -1,0 +1,49 @@
+.main{
+    height: 50rem;
+    width: 100%;
+    margin: 0px;
+    background-color:  rgb(35, 33, 44);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(13, 11, 18);
+}
+.main-1{
+    width: 60%;
+    margin:0% 20%;
+}
+
+.main-2{
+    width: 80%;
+    padding: 5% 10% 10% 10%;
+}
+
+.image{
+    float: left;
+    /* opacity: 0.2; */
+    mix-blend-mode:difference;
+}
+
+.heading{
+    width: 70%;
+    padding: 5% 15%;
+    text-align: center;
+    background-color: rgb(41, 40, 57);
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(25, 22, 29);
+}
+
+.main h1{
+    padding-top: 100px;
+    color: rgb(248, 248, 248);
+    font-style: normal;
+    font-weight: 400;
+    height: 40px;
+}
+
+.heading p{
+    color: white;
+    font-size:20px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: 300;
+}

@@ -1,0 +1,63 @@
+.intro{
+    height: 50%;
+    width: 50%;
+    margin: 3% 25%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo img{
+    height: 200px;
+}
+.logo{
+    text-align: center;
+}
+
+.logo h1{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    /* margin: 0px 355px; */
+}
+
+.desc {
+    text-align: center;
+    color: rgb(141, 141, 141);
+}
+
+.desc h2{
+    font-style: oblique;
+}
+.desc button{
+    padding: 15px 40px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 28, 85);
+    font-weight: 200;
+    border-radius: 50px;
+    border: none;
+    transition: .3s;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+}
+.desc button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 30, 67);
+    scale: 1.02;
+    transition: .3s;
+}
+.logo img {
+    animation: rotateAnimation 5s linear infinite; 
+}
+
+.logo img {
+    animation: scale 3s linear infinite; 
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.07);
+    }
+}
+
