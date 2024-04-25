@@ -15,7 +15,7 @@ function smoothScroll(hash) {
         const targetOffset = targetElement.offsetTop;
         const scrollAnimation = function() {
             if (window.scrollY < targetOffset) {
-                window.scrollBy(0, 20);
+                window.scrollBy(0, 40);
                 requestAnimationFrame(scrollAnimation);
             }
         };

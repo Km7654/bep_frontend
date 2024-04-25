@@ -1,3 +1,25 @@
 .footer{
-    height: 400px;
+    color: white;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding: 5% 10% 0% ;
+}
+
+.left{
+    width: 40%;
+    margin-left: 10%;
+}
+.right{
+    width: 30%;
+    display: flex;
+    gap: 50px;
+    padding: 0px 10px;
+    margin-left: 15%;
+}
+.copyright{
+    color: rgb(152, 146, 159);
+    width: 70%;
+    margin: 2% 15%;
+    text-align: center;
 }
